@@ -38,9 +38,6 @@ public class JdbcUtil {
 
 		// Step2. Establish the Connection
 		Connection connection = DriverManager.getConnection(url,username,password);
-				
-		//  Establish the Connection
-		//Connection connection = DriverManager.getConnection("jdbc:mysql:///inventory", "root", "Prit123@");
 		return connection;
 	}
 
